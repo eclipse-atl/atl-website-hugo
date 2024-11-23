@@ -1,4 +1,4 @@
-baseurl = "https://eclipse.dev/hugo-eclipsefdn-website-boilerplate"
+baseurl = "https://eclipse.dev/atl"
 DefaultContentLanguage = "en"
 title = "The Community for Open Innovation and Collaboration"
 theme = "hugo-solstice-theme"
@@ -58,30 +58,58 @@ pluralizeListTitles = false
   hrefTargetBlank = true
 
 [[menu.sidebar]]
-  name = "Documentation"
-  url = "/home"
+  name = "Project Summary"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl"
   weight = 1
   identifier = "home"
 
 [[menu.sidebar]]
   parent ="home"
-  name = "hugo-solstice-theme"
-  url = "https://webdev.eclipse.org/docs/hugo/"
+  name = "Overview"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl"
   weight = 1
   pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 [[menu.sidebar]]
   parent ="home"
-  name = "Solstice"
-  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
+  name = "Downloads"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl/downloads"
   weight = 2
   pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 [[menu.sidebar]]
   parent ="home"
-  name = "Hugo"
-  url = "https://gohugo.io/documentation/"
+  name = "Who's Involved"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl/who"
   weight = 3
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+[[menu.sidebar]]
+  parent ="home"
+  name = "Developer Resources"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl/developer"
+  weight = 4
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+[[menu.sidebar]]
+  parent ="home"
+  name = "Developer Resources"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl/developer"
+  weight = 4
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+[[menu.sidebar]]
+  parent ="home"
+  name = "Governance"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl/governance"
+  weight = 5
+  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+[[menu.sidebar]]
+  parent ="home"
+  name = "Contact Us"
+  url = "https://projects.eclipse.org/projects/modeling.mmt.atl/contact"
+  weight = 6
   pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 # Uncomment [[menu.main]] to hide the default EF menu

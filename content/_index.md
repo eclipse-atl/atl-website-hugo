@@ -1,6 +1,5 @@
 ---
-title: "hugo-eclipsefdn-website-boilerplate"
-date: 2020-03-01T16:09:45-04:00
+title: "ATL"
 #headline: "The Community for Open Innovation and Collaboration"
 #tagline: "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
 hide_page_title: true
@@ -12,13 +11,32 @@ hide_page_title: true
 #container: "container-fluid"
 ---
 
-# hugo-eclipsefdn-website-boilerplate
+{{< header >}}
 
-The hugo-eclipsefdn-website-boilerplate project is available under the EPL-v2. 
+# ATL - a model transformation technology
 
-Currently the project is maintained by the Eclipse Foundation web development team, but like other projects under the Eclipse Foundation umbrella is open to community input and development.
+[ATL](https://github.com/eclipse-atl/atl/wiki) (ATL Transformation Language) is a model transformation language and toolkit. In the field of Model-Driven Engineering (MDE), ATL provides ways to produce a set of target models from a set of source models.
 
-{{< starterkit/example >}}
+Developed on top of the Eclipse platform, the ATL Integrated Environnement (IDE) provides a number of standard development tools (syntax highlighting, debugger, etc.) that aims to ease development of ATL transformations.
 
-For more information, see our documentation for the [hugo-solstice-theme](https://webdev.eclipse.org/docs/hugo/).
+{{< youtube wP1M0-PsJXs >}}
 
+## What can you do with ATL?
+
+ATL provides a way to produce a number of target models from a set of source models.
+An ATL transformation program is composed of rules that define how source model elements are matched and navigated to create and initialize the elements of the target models.
+You can find more details about the model to model transformation concepts [here](https://github.com/eclipse-atl/atl/wiki/Concepts).
+
+{{< figure src="images/atl_presentation.png" alt="ATL" width="400" height="129" >}}
+
+### ATL Examples
+
+There is a lot of ATL transformations which can be used as reference to develop your own transformations. Families to Persons ([PDF version](https://www.eclipse.org/atl/documentation/old/ATLUseCase_Families2Persons.pdf), [Powerpoint version](https://www.eclipse.org/atl/documentation/old/ATLUseCase_Families2Persons.ppt)) is a kind of ATL "Hello World". The [ATL Basic Examples](https://www.eclipse.org/atl/documentation/basicExamples_Patterns/) section provides a set of basic examples and patterns.
+
+Advanced examples of ATL use are available as [use cases](https://www.eclipse.org/atl/usecases/) and inside of the [ATL Transformations Zoo](https://www.eclipse.org/atl/atlTransformations/).
+
+### Discovering features...
+
+Read the [documentation](documentation), join the discussion at the [forum](https://www.eclipse.org/forums/index.php/f/241/).
+
+## Latest changes

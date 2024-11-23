@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<faq>
+	<entry>
+		<question>What is ATL?</question>
+		<answer>
+			ATL, the Atlas Transformation Language, is the ATLAS INRIA &amp; LINA research group answer to the OMG MOF/QVT RFP. It is a model transformation language specified both as a metamodel and as a textual concrete syntax. It is a hybrid of declarative and imperative. An ATL transformation program is composed of rules that define how source model elements are matched and navigated to create and initialize the elements of the target models.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>My metamodel contains elements (classes, attributes, references, enumeration literals, etc.) having a name that collides with an ATL keywords or that are not valid ATL identifiers. What do I do?</question>
+		<answer>
+			The naming constraints of a metametamodel and of a transformation language may not be the same. This is especially the case when transformation programs are specified textually. Moreover, all metamodels do not have the same requirements on names.
+			Let us tag <i>simple</i> identifiers that are of the form <b>[_a-zA-Z][_a-zA-Z0-9]*</b> and *complex* identifers that are any other string of characters that may be used in a metamodel (this practically means any other string). To solve this issue, a mechanism has been implemented in the ATL engine to escape complex identifiers. Any string of characters bounded by double quotes will be considered an identifier.
+			As an example, consider the + operation defined on integers in OCL. It can simply be used in its infix form: <b>1 + 2</b>. However, <b>1.+(2)</b> is not valid in ATL because the name of an operation in a call must be an identifer and + is not. If we rewrite it as: <b>1."+"(2)</b> it will work because "+" is a valid identifier.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>How does ATL deal with primitive types?</question>
+		<answer>
+          <p>There are several different contexts in which primitive types are involved:
+	          <ul>
+    	        <li>In ATL, using OCL, the primitive types are: Boolean, Real, Integer and String.</li>
+	            <li>
+	            	In KM3, primitive types are specified using the datatype keyword. Any name can be used, but those understood by the ATL VM are
+	            	Boolean, Double, Integer and String. There are mapped to their homonymous OCL type except for Double which is mapped to Real.
+	            	The mapping is actually performed in two steps. First, the KM3 model is promoted to an Ecore (for EMF, by creating an EDataType
+	            	with the same name) or MOF-1.4 (for MDR, by creating a PrimitiveType with the same name) metamodel. Then, the rules explained
+	            	below are applied when the metamodel is loaded in the VM.
+	            </li>
+    	        <li>
+    	        	When using MDR to handle models, MDR rules apply. If the MOF-1.4 metamodel was created using KM3, then each primitive type is
+    	        	represented by a PrimitiveType.
+    	        </li>
+        	    <li>
+        	    	With EMF, EDataType is used to represent primitive types in metamodels. If the name of the EDataType is Boolean, Double, Integer
+        	    	or String the ATL VM sets the instanceClassName to java.lang.&lt;type-name&gt; whatever its value was. For EDataType with other names,
+        	    	it is the responsibility of the metamodel creator to set instanceClassName to the correct value.
+        	    </li>
+          	  </ul>
+          </p>
+          <p> The following table summarizes this.
+            <table border="1" cellpadding="2">
+              <tr>
+                <th colspan="1" align="left" valign="middle"><p>ATL &amp; OCL</p></th>
+                <th colspan="1" align="left" valign="middle"><p>KM3</p></th>
+                <th colspan="1" align="left" valign="middle"><p>EMF(1)</p></th>
+                <th colspan="1" align="left" valign="middle"><p>MDR</p></th>
+                <th colspan="1" align="left" valign="middle"><p>ATL VM Java Types</p></th>
+              </tr>
+              <tr>
+                <td colspan="1" align="left" valign="middle"><p>Boolean</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Boolean</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Boolean</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Boolean</p></td>
+                <td colspan="1" align="left" valign="middle"><p>java.lang.Boolean</p></td>
+              </tr>
+              <tr>
+                <td colspan="1" align="left" valign="middle"><p>Real</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Double</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Double</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Double</p></td>
+                <td colspan="1" align="left" valign="middle"><p>java.lang.Double </p></td>
+              </tr>
+              <tr>
+                <td colspan="1" align="left" valign="middle"><p>Integer</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Integer</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Integer</p></td>
+                <td colspan="1" align="left" valign="middle"><p>Integer</p></td>
+                <td colspan="1" align="left" valign="middle"><p>java.lang.Integer</p></td>
+              </tr>
+              <tr>
+                <td colspan="1" align="left" valign="middle"><p>String</p></td>
+                <td colspan="1" align="left" valign="middle"><p>String</p></td>
+                <td colspan="1" align="left" valign="middle"><p>String</p></td>
+                <td colspan="1" align="left" valign="middle"><p>String</p></td>
+                <td colspan="1" align="left" valign="middle"><p>java.lang.String</p></td>
+              </tr>
+            </table>
+          </p>
+          <p>(1) When using EMF, the ATL VM automatically sets the instanceClassName property of EDataTypes having the names given in this column to the values given in the ATL VM Java Types column. Other EDataTypes can be defined in a metamodel, but then the user must specify a correct value for instanceClassName (see ATL VM Java Types column). Properties typed by EDataTypes that do not conform to these rules are neither navigable nor settable.</p>
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>What about models serialized across multiple files?</question>
+		<answer>
+			Both MDR and EMF are able to do that. However, the ATL engine does not presently offer the possibility to load or save such models.
+			Loading may be implemented soon.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>How do I convert an Ecore metamodel to KM3?</question>
+		<answer>
+			You can use the org.atl.engine.km3 plugin to do that. It adds a Extract Ecore metamodel to KM3 item in the contextual menu of files
+			having the ecore extension.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>What is the difference between QVT and ATL?</question>
+		<answer>
+			<p>
+				Please see this paper: <a href="http://www.sciences.univ-nantes.fr/lina/atl/bibliography/SAC06a">
+				On the Architectural Alignment of ATL and QVT</a>.
+			</p>
+			<p>
+				You may also find answers on this subject in this post:
+				<a href="http://www.eclipse.org/newsportal/article.php?id=52&amp;group=eclipse.technology.gmt#52">
+				http://www.eclipse.org/newsportal/article.php?id=52&amp;group=eclipse.technology.gmt#52</a>
+			</p>
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>What is a module?</question>
+		<answer>
+			<p>All the rules and the helpers defined in an ATL program are contained in a module.</p>
+			<p> Example:
+				Let's consider a module named "modulet"
+				Suppose we have a helper named "helpme" declared without context. It is required to
+				prefix the helper name by the module name when calling this helper:
+				modulet.helpme.
+			</p>
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>What is the strange character "!"?</question>
+		<answer>
+			<p>It is used to discriminate elements of metamodels because of potential ambiguities.</p>
+			<p>Example:
+				In both UML and MOF there is an element referred to as VisibilityKind.
+				UML VisibilityKind will be identified by UML!VisibilityKind and MOF VisibilityKind by MOF!VisibilityKind.
+			</p>
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>I saw ATL transformations are compiled to ASM file. Is it an assembly file?</question>
+		<answer>ASM format is based on XML and contains ATL bytecode representation of transformations.</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>Do you use a virtual machine to realise transformations?</question>
+		<answer>ATL Engine is actually based on a virtual machine.</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>Currently do both EMF and MDR work?</question>
+		<answer>
+			It is possible to use MDR or EMF as model handlers.
+			Different model handlers may be used for a given transformation.
+			However, a model uses the same model handler as its metamodel.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>Is it possible to have an EMF based input model and an MDR based output model?</question>
+		<answer>Yes, this kind of transformation is possible.</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>What is the main goal of KM3? Is it an additional M3 (i.e. metametamodel) created by your team? Is it a kind of "pivot" upon which is based ATL?</question>
+		<answer>
+			KM3 is a metamodel allowing us to make bridges with MDR metametamodel (i.e. MOF-1.4) and EMF metametamodel (i.e. Ecore).
+			It could be used also with other environment like the one of Microsoft for example.
+			KM3 is a kind of "pivot", but ATL does not really need it: you can use your own MOF-1.4 or Ecore metamodels.
+			Futhermore, a textual concrete syntax exists for KM3 that eases the coding of metamodels.
+			It is typically faster to design a metamodel with KM3 than with visual tools.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>Is it possible to easily transform EMF metamodel into KM3 metamodel?</question>
+		<answer>
+			Yes, the <b>org.atl.eclipse.km3</b> plugin allows to do: KM3 to Ecore and Ecore to KM3.
+			It can also do KM3 to MOF-1.4 and MOF-1.4 to KM3.
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+	<entry>
+		<question>I can use KM3 to create metamodels, but what about models?</question>
+		<answer>
+			There are several possibilities to create models:
+			<ul>
+				<li>
+					Using a visual tool.
+					This is very convenient for languages with visual syntaxes (e.g. UML).
+				</li>
+				<li>
+					Using EMF "Sample Reflective Ecore Model Editor", which is automatically available on any file with the "xmi" extension.
+				</li>
+				<li>
+					Using an injector: a tool to transform from one Technical Space to the Model Engineering Technical Space.
+					For instance, the AM3 plugins provide an XML injector that transforms XML documents into models conforming to an XML metamodel.
+					If no generic injector already exists for your metamodel you may consider building one.
+				</li>
+				<li>
+					By transforming a source model into a target model.
+					For instance, to get a model conforming to a <em>SimpleClassDiagram</em> metamodel one can write a UML2SimpleClassDiagram transformation.
+					Then, a standard UML tool can be used to create <em>SimpleClassDiagram</em> metamodels.
+				</li>
+				<li>
+					By combining injection and tranformation.
+					For instance: XML injection followed by XML2MyMetamodel transformation.
+					You can find an example in the <a href="http://www.eclipse.org/gmt/atl/atlTransformations/#Book2Publication">Book2Publication</a>
+					transformation (see XML2Book.atl).
+				</li>
+			</ul>
+		</answer>
+		<topic>ATL</topic>
+	</entry>
+</faq>
