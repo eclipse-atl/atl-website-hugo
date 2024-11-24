@@ -130,10 +130,10 @@ In this use case, we translate [FIACRE](https://www-sop.inria.fr/oasis/fiacre/) 
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Models Measurement]()
+### [Models Measurement](modelsmeasurement/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case shows how to compute and generate measures on KM3 metamodels or UML2 models, and how to display them in different way (HTML, and SVG). This work has been done in collaboration between SODIUS and the ATLAS Group. As a complementary application to this contribution, an online service is provided at SODIUS's web site under the name "MC-Meter". The online measurement service is available at: http://www.mdworkbench.com/measuring.php
+This use case shows how to compute and generate measures on KM3 metamodels or UML2 models, and how to display them in different way (HTML, and SVG). This work has been done in collaboration between SODIUS and the ATLAS Group. As a complementary application to this contribution, an online service is provided at SODIUS's web site under the name "MC-Meter".
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Reaching Completion](../images/completion.png)
@@ -420,10 +420,10 @@ This use case shows how to use and integrate a model transformation service in a
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Measuring UML models]()
+### [Measuring UML models](measuring_uml_models/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case shows how to use and integrate a model transformation service in a UML Modeler to compute and generate quality measures on UML models. The used UML Modeler is Papyrus (CEA LIST).
+This use case shows how to use and integrate a model transformation service in a UML Modeler to compute and generate quality measures on UML models. The used UML Modeler is [Papyrus](https://eclipse.dev/papyrus/) ([CEA LIST](https://list.cea.fr/)).
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Specification Only](../images/specification.png)
