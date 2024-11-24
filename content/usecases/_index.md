@@ -54,7 +54,7 @@ This work presents a case study of implementing two telephony languages: SPL and
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Model Adaptation]()
+### [Model Adaptation](modeladaptation/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 The evolution of a metamodel may render its related terminal models invalid. This use case proposes a three-step solution that automatically adapts terminal models to their evolving metamodels. The main contribution is the precise detection of metamodel changes by using the AtlanMod Matching Language (AML), a DSL built on top of ATL and AMW. The running example is the Petrinet models.
@@ -70,10 +70,10 @@ The evolution of a metamodel may render its related terminal models invalid. Thi
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Models Validation through Petri nets]()
+### [Models Validation through Petri nets](simplepdl2tina/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This work presents a use case of model transformation using ATL rules to validate MDD's models. This use case considers a simplified process description language, SimplePDL. It then presents a property-driven approach in which SimplePDL process models are translated into Petri nets. SimplePDL behavioral properties are expressed on corresponding Petri nets in LTL (Linear Temporal Logic). The Tina toolkit and, in particular, its model-checker, are used to validate process models by checking the expressed properties. This use case has been done by Benoit Combemale (IRIT). This is a collaboration between IRIT and LAAS labs in Toulouse, France.
+This work presents a use case of model transformation using ATL rules to validate MDD's models. This use case considers a simplified process description language, SimplePDL. It then presents a property-driven approach in which SimplePDL process models are translated into Petri nets. SimplePDL behavioral properties are expressed on corresponding Petri nets in LTL (Linear Temporal Logic). The Tina toolkit and, in particular, its model-checker, are used to validate process models by checking the expressed properties. This use case has been done by Benoit Combemale ([IRIT](http://www.irit.fr/)). This is a collaboration between [IRIT](http://www.irit.fr/) and [LAAS](http://www.laas.fr/) labs in Toulouse, France.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Reaching Completion](../images/completion.png)
@@ -90,10 +90,10 @@ This work presents a use case of model transformation using ATL rules to validat
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Sharing Rules Between OCL/UML and SWRL/OWL]()
+### [Sharing Rules Between OCL/UML and SWRL/OWL](sharingrulesbetweenocluml_swrlowl/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This work presents an implementation of sharing rules between two rule languages from different domains: OCL (Object Constraint Language) together with UML and SWRL (Semantic Web Rule Language) together with OWL. For this integration we used the R2ML (REWERSE I1 Rule Markup Language) metamodel as pivotal metamodel. The R2ML is a general Web rule markup language and it can represent different rule types: integrity, reaction, derivation and production. This work has been done by Milan Milanovic in collaboration between the GOOD OLD AI Laboratory at University of Belgrade, School of Interactive Arts and Technology at Simon Fraser University Surrey in Canada and Chair of Internet Technology at Brandenburg University of Technology at Cottbus in Germany.
+This work presents an implementation of sharing rules between two rule languages from different domains: OCL (Object Constraint Language) together with UML and SWRL (Semantic Web Rule Language) together with OWL. For this integration we used the R2ML (REWERSE I1 Rule Markup Language) metamodel as pivotal metamodel. The R2ML is a general Web rule markup language and it can represent different rule types: integrity, reaction, derivation and production. This work has been done by [Milan Milanović](https://milan.milanovic.org/) in collaboration between the GOOD OLD AI Laboratory at University of Belgrade, [School of Interactive Arts and Technology](https://www.sfu.ca/siat) at [Simon Fraser University Surrey](https://www.surrey.sfu.ca/) in Canada and Chair of Internet Technology at Brandenburg University of Technology at Cottbus in Germany.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Reaching Completion](../images/completion.png)
@@ -112,10 +112,10 @@ This work presents an implementation of sharing rules between two rule languages
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Compiling a new formal verification language to LOTOS (ISO 8807)]()
+### [Compiling a new formal verification language to LOTOS (ISO 8807)](fiacre2lotos/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-In this use case, we translate FIACRE programs into LOTOS (ISO 8807) programs, which can then be verified using the CADP toolbox. This work is the result of the cooperation of two INRIA teams: ATLAS (Nantes), and VASY (Grenoble), in the context of the OpenEmbeDD project.
+In this use case, we translate [FIACRE](https://www-sop.inria.fr/oasis/fiacre/) programs into LOTOS ([ISO 8807](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=16258)) programs, which can then be verified using the [CADP](http://www.inrialpes.fr/vasy/cadp/) toolbox. This work is the result of the cooperation of two INRIA teams: ATLAS (Nantes), and [VASY](http://www.inrialpes.fr/vasy/) (Grenoble), in the context of the [OpenEmbeDD](https://openembedd.inria.fr/) project.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Reaching Completion](../images/completion.png)
