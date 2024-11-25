@@ -278,7 +278,7 @@ This work presents an ATL implementation of a metamodel independent approach to 
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Software Quality Control Tools Interoperability (Bugzilla, Mantis, Excel)]()
+### [Software Quality Control Tools Interoperability (Bugzilla, Mantis, Excel)](softwarequalitycontroltoolsinteroperability/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 Problems of tools interoperability can be found in various domains. Software quality control is one of these. This use case presents an implementation of bridges between different bug tracking tools like Bugzilla, and Mantis. We also consider that bug tracking information may be handled in a generic tool like Excel.
