@@ -22,7 +22,7 @@ Tool Interoperability, Software Quality Control, Bug-Tracking, [Excel](https://o
 
 ## Overview
 
- Problems of tools interoperability can be found in various domains. Software quality control is one of these. This use case presents an implementation of bridges between different bug tracking tools like Bugzilla, and Mantis. We also consider that bug tracking information may be handled in a generic tool like Excel.
+Problems of tools interoperability can be found in various domains. Software quality control is one of these. This use case presents an implementation of bridges between different bug tracking tools like Bugzilla, and Mantis. We also consider that bug tracking information may be handled in a generic tool like Excel.
 
 We take an example of "bug-tracking" in the case of a software product development. Assume that three teams are currently working on the same product at the same time but on different modules of this product. Teams may be geographically distributed, may have different levels of maturity of the used development process, may have different experience for the team members, and may consequently use different tools. The global situation may be described as follows:
 

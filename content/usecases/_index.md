@@ -296,7 +296,7 @@ Problems of tools interoperability can be found in various domains. Software qua
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Software Build Tools Interoperability (Make, Ant, Maven)]()
+### [Software Build Tools Interoperability (Make, Ant, Maven)](bridgebetweenbuildtools/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 Make is one of the most common build tool. It remains widely used but essentially in Unix-based platforms. Many problems have surfaced with scaling Make to work with modern, large software projects. So, it is interesting to provide some bridges from Make to other build tools like Ant (which is popular for Java development and uses an XML file format) and Maven (a Java tool for management project and automated software build).
@@ -314,7 +314,7 @@ Make is one of the most common build tool. It remains widely used but essentiall
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Web Syndication Interoperability (RSS and Atom)]()
+### [Web Syndication Interoperability (RSS and Atom)](websyndicationinteroperability/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 People who generate web syndication feeds have a choice of formats. Today, the two most likely candidates are RSS 2.0 and Atom 1.0. The goal of this case study is to provide a bridge between both formats by using a light and flexible interoperability solution.
