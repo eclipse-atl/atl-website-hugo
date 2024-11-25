@@ -148,10 +148,10 @@ This use case shows how to compute and generate measures on KM3 metamodels or UM
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Modeling Web applications]()
+### [Modeling Web applications](webapp.modeling/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case shows how model weaving is used to help in the development of model transformations. In some cases, the gap between the input and output metamodels makes it difficult to develop a model transformation that works for every input model. In such cases a weaving model can be used to enrich the input model by annotation. This process can be thought of as a way to parameterize the model transformation.
+This use case shows how model weaving is used to help in the development of model transformations. In some cases, the gap between the input and output metamodels makes it difficult to develop a model transformation that works for every input model. In such cases a weaving model can be used to enrich the input model by **annotation**. This process can be thought of as a way to *parameterize* the model transformation.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Reaching Completion](../images/completion.png)
