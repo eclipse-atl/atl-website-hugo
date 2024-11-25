@@ -164,7 +164,7 @@ This use case shows how model weaving is used to help in the development of mode
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Visual Representation for Code Clone Tools]()
+### [Visual Representation for Code Clone Tools](visualrepcodeclone/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 The aim of this use case is to realize a uniform visual representation for different code clone detection tools. Different analysis results provided by different code clone detection tools can be injected into models. These models will be transformed to a generic Code Clone DSL model, and then into SVG model. Finally, the SVG code can be automatically extracted from SVG model.
@@ -492,3 +492,13 @@ This use case presents the import of SILDEX models (a synchronous language based
 {{< grid/div class="col-md-6" >}}
 ![Specification Only](../images/specification.png)
 {{</ grid/div >}}
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## Latest changes
