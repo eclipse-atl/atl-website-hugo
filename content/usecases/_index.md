@@ -258,7 +258,7 @@ This work provides a QVT compiler that targets the ATL Virtual Machine (ATL VM),
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [A Metamodel Independent Approach to Difference Representation]()
+### [A Metamodel Independent Approach to Difference Representation](mmindapproachtodiffrep/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 This work presents an ATL implementation of a metamodel independent approach to the representation of model differences which is agnostic of the calculation method. Given two models being differenced which conform to a metamodel, their difference is conforming to another metamodel derived from the former by an automated transformation. Interestingly, difference models are first-class artifacts which in turn induce other transformations, such that they can be applied to one of the differenced models to automatically obtain the other one. This work has been done by Antonio Cicchetti, Davide Di Ruscio and Alfonso Pierantonio (Università dell'Aquila).
