@@ -332,7 +332,7 @@ People who generate web syndication feeds have a choice of formats. Today, the t
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [ODM Implementation (Bridging UML and OWL)]()
+### [ODM Implementation (Bridging UML and OWL)](odmimplementation/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 This use case presents an implemented solution to the OMG Ontology Definition Metamodel (ODM) specification. ODM offers a set of metamodels and mappings for bridging the metamodeling world and the ontologies. The present solution supports the UML 2.0 metamodel and the OWL metamodel as defined in ODM. This work is made by the SIDo Group from the L3I lab in La Rochelle.
