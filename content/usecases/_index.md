@@ -350,10 +350,10 @@ This use case presents an implemented solution to the OMG Ontology Definition Me
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Implementing two business rule languages: PRR and IRL]()
+### [Implementing two business rule languages: PRR and IRL](prr2irl/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This work presents a case study of implementing two business rule languages: Production Rule Representation (PRR) and ILOG Rule Language (IRL). We show how a pivot language can be translated into a concrete one with the help of model engineering. The outcome of this experiment also provides an interesting example of DSLs coordination. This work has been done in collaboration between the ATLAS Group in Nantes and ILOG. A web service PRR to IRL is available here: http://www.sciences.univ-nantes.fr/lina/atl/atldemo/prronline/.
+This work presents a case study of implementing two business rule languages: Production Rule Representation (PRR) and ILOG Rule Language (IRL). We show how a pivot language can be translated into a concrete one with the help of model engineering. The outcome of this experiment also provides an interesting example of DSLs coordination. This work has been done in collaboration between the ATLAS Group in Nantes and ILOG.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Partially Implemented](../images/implementation.png)
