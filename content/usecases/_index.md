@@ -468,10 +468,10 @@ TOPCASED currently relies on the ATL model transformation toolkit. Model transfo
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Sildex to Topcased SAM]()
+### [Sildex to Topcased SAM](sildex2sam/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case presents the import of SILDEX models (a synchronous language based graphical modelling formalism developed by TNI and currently in use at AIRBUS) in the TOPCASED SAM modelling language. SAM represents the new TOPCASED business metamodel for functional and automaton parts of SILDEX. This use case was implemented by C-S in the context of the TOPCASED project.
+This use case presents the import of SILDEX models (a synchronous language based graphical modelling formalism developed by TNI and currently in use at [AIRBUS](https://www.airbus.com/en/)) in the TOPCASED SAM modelling language. SAM represents the new TOPCASED business metamodel for functional and automaton parts of SILDEX. This use case was implemented by [C-S](https://www.csgroup.eu/fr/) in the context of the TOPCASED project.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Specification Only](../images/specification.png)
@@ -487,7 +487,7 @@ This use case presents the import of SILDEX models (a synchronous language based
 ### [Sildex to Topcased AADL/COTRE]()
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case presents the import of SILDEX models (a synchronous language based graphical modelling formalism developed by TNI and currently in use at AIRBUS) in AADL/COTRE. It was implemented by C-S in the context of the TOPCASED project.
+This use case presents the import of SILDEX models (a synchronous language based graphical modelling formalism developed by TNI and currently in use at [AIRBUS](https://www.airbus.com/en/)) in AADL/COTRE. It was implemented by [C-S](https://www.csgroup.eu/fr/) in the context of the TOPCASED project.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Specification Only](../images/specification.png)
