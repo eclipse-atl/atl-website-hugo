@@ -484,7 +484,7 @@ This use case presents the import of SILDEX models (a synchronous language based
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Sildex to Topcased AADL/COTRE]()
+### [Sildex to Topcased AADL/COTRE](sildex2aadl/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 This use case presents the import of SILDEX models (a synchronous language based graphical modelling formalism developed by TNI and currently in use at [AIRBUS](https://www.airbus.com/en/)) in AADL/COTRE. It was implemented by [C-S](https://www.csgroup.eu/fr/) in the context of the TOPCASED project.
