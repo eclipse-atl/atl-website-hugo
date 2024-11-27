@@ -452,7 +452,7 @@ This use case shows how to use and integrate a model transformation service in a
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [RSM to Topcased UML2 Editor]()
+### [RSM to Topcased UML2 Editor](rsm2topcased/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 TOPCASED currently relies on the ATL model transformation toolkit. Model transformations have been mainly used in order to access models defined using other editors than TOPCASED one's. This use case presents an operational application of ATL to bridge RSM and TOPCASED.
