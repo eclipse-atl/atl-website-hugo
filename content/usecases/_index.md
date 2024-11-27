@@ -404,10 +404,10 @@ This use case shows the possibility to have interoperability between an UML acti
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Using a UML modeler to generate metamodels]()
+### [Using a UML modeler to generate metamodels](uml2mof/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case shows how to use and integrate a model transformation service in a UML Modeler to generate metamodels conforming to KM3, MOF 1.4, and Ecore. The used UML Modeler is Papyrus (CEA LIST).
+This use case shows how to use and integrate a model transformation service in a UML Modeler to generate metamodels conforming to KM3, MOF 1.4, and Ecore. The used UML Modeler is [Papyrus](https://eclipse.dev/papyrus/) ([CEA LIST](https://list.cea.fr/fr/)).
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Specification Only](../images/specification.png)
