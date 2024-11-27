@@ -368,10 +368,10 @@ This work presents a case study of implementing two business rule languages: Pro
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [From Hoare's Monitors to Dijkstra's Semaphores]()
+### [From Hoare's Monitors to Dijkstra's Semaphores](monitortosemaphore/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This is a classic in synchronization. We propose an automatic translation from Hoare's monitors as defined in [1] into Dijkstra's semaphores as initially introduced in [2]. The ATL transformation code follows the rules given in [1]. A complete reprint of this paper is available at: http://www.acm.org/classics/feb96/.
+This is a classic in synchronization. We propose an automatic translation from Hoare's monitors as defined in [[1]](monitortosemaphore/#references) into Dijkstra's semaphores as initially introduced in [[2]](monitortosemaphore/#references). The ATL transformation code follows the rules given in [[1]](monitortosemaphore/#references). A complete reprint of this paper is available at: https://www.acm.org/classics/feb96/.
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Partially Implemented](../images/implementation.png)
