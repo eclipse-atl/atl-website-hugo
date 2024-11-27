@@ -436,10 +436,10 @@ This use case shows how to use and integrate a model transformation service in a
 &nbsp;
 
 {{< grid/div class="col-md-6" >}}
-### [Verifying UML profiled models]()
+### [Verifying UML profiled models](verifying_uml_profiled_models/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case shows how to use and integrate a model transformation service in a UML Modeler to verify a UML profiled model. The used UML Modeler is Papyrus (CEA LIST).
+This use case shows how to use and integrate a model transformation service in a UML Modeler to verify a UML profiled model. The used UML Modeler is [Papyrus](https://eclipse.dev/papyrus/) ([CEA LIST](https://list.cea.fr/)).
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Specification Only](../images/specification.png)
