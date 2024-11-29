@@ -13,7 +13,7 @@ hide_sidebar: true
 
 {{< header >}}
 
-# ATL Downloads
+# Downloads
 
 ## Recent builds and releases
 

@@ -13,7 +13,7 @@ hide_sidebar: true
 
 {{< header >}}
 
-# ATL Documentation
+# Documentation
 
 ## Wiki
 
@@ -24,6 +24,7 @@ The [ATL wiki](https://github.com/eclipse-atl/atl/wiki) is the root of all the d
   * [ATL User Guide](https://github.com/eclipse-atl/atl/wiki/User_Guide_-_Introduction): The complete ATL User Guide.
   * [ATL Developer Guide](https://github.com/eclipse-atl/atl/wiki/Developer_Guide): A description of ATL implementation for developers.
   * [Specification of the ATL Virtual Machine](old/ATL_VMSpecification[v00.01].pdf): Working draft of the transformation description template.
+  * [ATL Transformation Description Template](old/ATL_Transformation_Template[v00.01].pdf): Working draft of the transformation description template.
   * [Presentation of the ATL Virtual Machine](old/ATL_VM_Presentation_[1.0].pdf): An introduction to the ATL Virtual Machine (V1.0 draft).
 
 ## Examples
@@ -37,11 +38,11 @@ The [ATL wiki](https://github.com/eclipse-atl/atl/wiki) is the root of all the d
 
   * ATL at Eclipse Con 2009: [Model Refactoring and other Advanced ATL Techniques](https://www.eclipsecon.org/2009/sessions?id=511)
   * ATL at Eclipse Con 2008: [Model-to-model Transformation with ATL](https://www.eclipsecon.org/2008/index.php?page=sub/&id=402)
- 
+
 ## Archive
 
 The following documentation may not be up-to-date, and is provided mainly for historical purposes.
-  
+
   * [ATL presentation sheet](old/ATL_PresentationSheet.pdf): Short presentation of ATL project.
   * [ATL Starter's Guide](old/ATL_Starter_Guide.pdf): Working draft of the ATL Starter's Guide.
   * [ATL User Manual](old/ATL_User_Manual[v0.7].pdf): The ATL User Manual.
