@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1' ?>
+<svg xmlns = 'http://www.w3.org/2000/svg' version = '1.1' width = '1000' height = '4280' standalone = 'no'>
+  <g transform = 'translate(0,0)'>
+    <text x = '220' y = '20' font-size = '16' font-family = 'Arial Black'>Code Clone Analysis Result by Simian</text>
+  </g>
+  <g transform = 'translate(0,0)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 1</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtField.java  (Total Lines: 1304)</text>
+      <rect x = '20' y = '80' width = '775' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtField.java'/>
+      <rect x = '243' y = '83' width = '10' height = '54' fill = 'red' opacity = '0.75' title = 'Line 376 to 393 (18 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '266' y = '83' width = '10' height = '54' fill = 'red' opacity = '0.75' title = 'Line 414 to 431 (18 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,260)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 2</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '550' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 891 to 898 (8 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '371' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 591 to 598 (8 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,520)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 3</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '335' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 531 to 538 (8 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '296' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 465 to 472 (8 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,780)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 4</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '606' y = '83' width = '3' height = '54' fill = 'red' opacity = '0.75' title = 'Line 986 to 992 (7 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '580' y = '83' width = '3' height = '54' fill = 'red' opacity = '0.75' title = 'Line 943 to 949 (7 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,1040)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 5</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtConstructor.java  (Total Lines: 398)</text>
+      <rect x = '20' y = '80' width = '236' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtConstructor.java'/>
+      <rect x = '179' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 268 to 275 (8 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '622' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1012 to 1019 (8 lines)'/>
+    </g>
+    <g transform = 'translate(0,180)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '559' y = '83' width = '3' height = '54' fill = 'red' opacity = '0.75' title = 'Line 907 to 913 (7 lines)'/>
+    </g>
+    <g transform = 'translate(0,270)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '435' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 699 to 706 (8 lines)'/>
+    </g>
+    <g transform = 'translate(0,360)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '379' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 605 to 612 (8 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '475' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,1570)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 6</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtField.java  (Total Lines: 1304)</text>
+      <rect x = '20' y = '80' width = '775' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtField.java'/>
+      <rect x = '168' y = '83' width = '10' height = '54' fill = 'red' opacity = '0.75' title = 'Line 250 to 267 (18 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '279' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 437 to 445 (9 lines)'/>
+    </g>
+    <g transform = 'translate(0,180)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '112' y = '83' width = '10' height = '54' fill = 'red' opacity = '0.75' title = 'Line 155 to 172 (18 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '295' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,1920)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 7</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '643' y = '83' width = '3' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1048 to 1054 (7 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '627' y = '83' width = '3' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1022 to 1028 (7 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,2180)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 8</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '561' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 910 to 917 (8 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '590' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 959 to 966 (8 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,2440)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 9</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '378' y = '83' width = '5' height = '54' fill = 'red' opacity = '0.75' title = 'Line 603 to 612 (10 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '434' y = '83' width = '5' height = '54' fill = 'red' opacity = '0.75' title = 'Line 697 to 706 (10 lines)'/>
+    </g>
+    <g transform = 'translate(0,180)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '558' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 905 to 913 (9 lines)'/>
+    </g>
+    <g transform = 'translate(0,270)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtConstructor.java  (Total Lines: 398)</text>
+      <rect x = '20' y = '80' width = '236' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtConstructor.java'/>
+      <rect x = '178' y = '83' width = '5' height = '54' fill = 'red' opacity = '0.75' title = 'Line 266 to 275 (10 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '385' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,2880)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 10</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '566' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 919 to 927 (9 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '596' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 969 to 977 (9 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,3140)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 11</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '112' y = '83' width = '10' height = '54' fill = 'red' opacity = '0.75' title = 'Line 155 to 173 (19 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtField.java  (Total Lines: 1304)</text>
+      <rect x = '20' y = '80' width = '775' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtField.java'/>
+      <rect x = '168' y = '83' width = '10' height = '54' fill = 'red' opacity = '0.75' title = 'Line 250 to 268 (19 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,3400)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 12</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtConstructor.java  (Total Lines: 398)</text>
+      <rect x = '20' y = '80' width = '236' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtConstructor.java'/>
+      <rect x = '178' y = '83' width = '9' height = '54' fill = 'red' opacity = '0.75' title = 'Line 266 to 282 (17 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtBehavior.java  (Total Lines: 1022)</text>
+      <rect x = '20' y = '80' width = '607' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtBehavior.java'/>
+      <rect x = '558' y = '83' width = '8' height = '54' fill = 'red' opacity = '0.75' title = 'Line 905 to 919 (15 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,3660)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 13</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '757' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1240 to 1248 (9 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtClassType.java  (Total Lines: 1597)</text>
+      <rect x = '20' y = '80' width = '949' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtClassType.java'/>
+      <rect x = '743' y = '83' width = '4' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1217 to 1225 (9 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+  <g transform = 'translate(0,3920)'>
+    <text x = '20' y = '45' font-size = '16' fill = 'blue' font-family = 'Arial'>Clone Group 14</text>
+    <g transform = 'translate(0,0)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtField.java  (Total Lines: 1304)</text>
+      <rect x = '20' y = '80' width = '775' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtField.java'/>
+      <rect x = '720' y = '83' width = '12' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1177 to 1198 (22 lines)'/>
+    </g>
+    <g transform = 'translate(0,90)'>
+      <text x = '25' y = '75' font-size = '12' fill = 'blue' font-family = 'Arial'>E:\Test\simian-2.2.17\bin\CtField.java  (Total Lines: 1304)</text>
+      <rect x = '20' y = '80' width = '775' height = '60' fill = 'yellow' rx = '10' ry = '10' stroke-width = '3' stroke = 'blue' opacity = '0.5' title = 'E:\Test\simian-2.2.17\bin\CtField.java'/>
+      <rect x = '698' y = '83' width = '12' height = '54' fill = 'red' opacity = '0.75' title = 'Line 1141 to 1162 (22 lines)'/>
+    </g>
+    <rect x = '1' y = '50' width = '998' height = '205' fill = 'none' rx = '10' ry = '10' stroke-width = '2' stroke = 'blue'/>
+  </g>
+</svg>
