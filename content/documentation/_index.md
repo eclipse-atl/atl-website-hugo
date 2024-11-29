@@ -6,7 +6,7 @@ hide_page_title: true
 hide_sidebar: true
 #hide_breadcrumb: true
 #show_featured_story: true
-#layout: "single"
+layout: "single"
 #links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
 #container: "container-fluid"
 ---
@@ -52,5 +52,3 @@ The following documentation may not be up-to-date, and is provided mainly for hi
   * [ANT Task for AMMA/ATL](old/ANT_Task_AMMA.pdf): A presentation of the AMMA/ATL Ant tasks (a [wiki page](https://github.com/eclipse-atl/atl/wiki/Ant_Tasks) is also available)
   * [ATL installation guide](old/ATL_Installation_Guide[v0.1].pdf): This document aims to provide a step-by-step guide for installing the Eclipse/EMF distribution of the ATL Development Tools.
   * [Installation of ADT from source](https://github.com/eclipse-atl/atl/wiki/Developer_Guide#install-atl-from-git): This document explains how to install ADT (IDE for ATL) from source.
-
-## Latest changes
