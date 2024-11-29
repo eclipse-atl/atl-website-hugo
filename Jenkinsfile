@@ -32,10 +32,10 @@ spec:
   }
 
   environment {
-    PROJECT_NAME = "<project_name>" // must be all lowercase.
-    PROJECT_BOT_NAME = "<Project_name> Bot" // Capitalize the name
-    PROJECT_GH_ORG = "<project_github_org>" // e.g. eclipse-hono
-    PROJECT_WEBSITE_REPO = "<project_website_repo>" // e.g. hono-website
+    PROJECT_NAME = "atl" // must be all lowercase.
+    PROJECT_BOT_NAME = "ATL Bot" // Capitalize the name
+    PROJECT_GH_ORG = "eclipse-atl" // e.g. eclipse-hono
+    PROJECT_WEBSITE_REPO = "atl-website" // e.g. hono-website
   }
 
   triggers { pollSCM('H/10 * * * *')
