@@ -55,20 +55,13 @@ spec:
             sshagent(['github-bot-ssh']) {
                 sh '''
                     git clone ssh://git@github.com/${PROJECT_GH_ORG}/${PROJECT_WEBSITE_REPO}.git .
-                    if [ "${BRANCH_NAME}" = "main" ]; then
-                      git checkout master
-                    else
-                      git checkout ${BRANCH_NAME}
-                    fi
+                    git checkout master
                 '''
             }
         }
       }
     }
-    stage('Build website (main) with Hugo') {
-      when {
-        branch 'main'
-      }
+    stage('Build website with Hugo') {
       steps {
         container('hugo') {
             dir('hugo') {
