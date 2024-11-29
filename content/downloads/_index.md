@@ -15,6 +15,10 @@ hide_sidebar: true
 
 # Downloads
 
+## Marketplace
+
+[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/modules/custom/eclipsefdn/eclipsefdn_marketplace/images/btn-install.svg)](https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=275) &#8592; Drag the install button to your running Eclipse workspace (Requires Eclipse Marketplace Client).
+
 ## Recent builds and releases
 
   * [https://download.eclipse.org/mmt/atl/builds/](https://download.eclipse.org/mmt/atl/builds/)
