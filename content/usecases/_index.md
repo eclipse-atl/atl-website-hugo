@@ -6,7 +6,7 @@ hide_page_title: true
 hide_sidebar: true
 #hide_breadcrumb: true
 #show_featured_story: true
-#layout: "single"
+layout: "single"
 #links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
 #container: "container-fluid"
 ---
@@ -500,5 +500,3 @@ This use case presents the import of SILDEX models (a synchronous language based
 &nbsp;
 
 &nbsp;
-
-## Latest changes

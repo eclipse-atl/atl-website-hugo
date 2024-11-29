@@ -6,7 +6,7 @@ hide_page_title: true
 hide_sidebar: true
 #hide_breadcrumb: true
 #show_featured_story: true
-#layout: "single"
+layout: "single"
 #links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
 #container: "container-fluid"
 ---
@@ -125,5 +125,3 @@ This use case presents a Model Driven solution for annotating models in order to
 ## Acknowledgement
 
 The present work is been supported by the GOLD project financed by the Spanish Ministry of Education and Science (TIN2005-00010) and the FoMDAs project (URJC-CM-2006-CET-0387) cofinanced by the [Rey Juan Carlos university](https://www.urjc.es/) and the Regional Government of Madrid.
-
-## Latest changes

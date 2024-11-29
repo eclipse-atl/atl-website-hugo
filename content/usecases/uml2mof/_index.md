@@ -6,7 +6,7 @@ hide_page_title: true
 hide_sidebar: true
 #hide_breadcrumb: true
 #show_featured_story: true
-#layout: "single"
+layout: "single"
 #links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
 #container: "container-fluid"
 ---
@@ -114,5 +114,3 @@ Source code of the ATL scenario used in this use case.
 ##  Acknowledgement
 
 The present work is being supported by the Usine Logicielle project of the System@tic Paris Region Cluster.
-
-## Latest changes
