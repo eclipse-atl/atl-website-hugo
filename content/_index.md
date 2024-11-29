@@ -29,7 +29,7 @@ You can find more details about the model to model transformation concepts [here
 
 {{< figure src="images/atl_presentation.png" alt="ATL" width="400" height="129" >}}
 
-### ATL Examples
+### Getting started
 
 There is a lot of ATL transformations which can be used as reference to develop your own transformations. Families to Persons ([PDF version](https://www.eclipse.org/atl/documentation/old/ATLUseCase_Families2Persons.pdf), [Powerpoint version](https://www.eclipse.org/atl/documentation/old/ATLUseCase_Families2Persons.ppt)) is a kind of ATL "Hello World". The [ATL Basic Examples](https://www.eclipse.org/atl/documentation/basicExamples_Patterns/) section provides a set of basic examples and patterns.
 
