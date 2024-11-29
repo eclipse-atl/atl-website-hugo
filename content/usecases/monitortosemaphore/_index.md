@@ -101,7 +101,7 @@ None at the current time.
 ##  Download
 
 {{< grid/div class="col-md-6" >}}
-### [Complete scenario](../../atltransformations/#Monitor2Semaphore)
+### [Complete scenario](../../atltransformations/#monitor-to-semaphore)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 Scenario available in the ATL transformation zoo (with source files).

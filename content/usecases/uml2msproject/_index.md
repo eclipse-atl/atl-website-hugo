@@ -54,7 +54,7 @@ None at the current time.
 ##  Download
 
 {{< grid/div class="col-md-6" >}}
-### [Complete scenario](../../atltransformations/#UMLActivityDiagram2MSProject)
+### [Complete scenario](../../atltransformations/#uml-activity-diagram-to-msproject)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 Scenario available in the ATL transformation zoo (with source files).

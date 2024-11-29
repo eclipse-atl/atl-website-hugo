@@ -78,7 +78,7 @@ None at the current time.
 
 ##  Download
 
-  * [Complete scenario](../../atltransformations/#OCL2SWRL): Scenario available in the ATL transformation zoo (with source files).
+  * [Complete scenario](../../atltransformations/#ocl-to-swrl): Scenario available in the ATL transformation zoo (with source files).
   * [R2ML metamodel](https://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#R2ML): R2ML metamodel is expressed in the KM3 textual format.
 
 ## Acknowledgement

@@ -57,7 +57,7 @@ None at the current time.
 ##  Download
 
 {{< grid/div class="col-md-6" >}}
-### [Packaged Eclipse project](../../atltransformations/#Syntax2SBVR2UML)
+### [Packaged Eclipse project](../../atltransformations/#syntax-to-sbvr-to-uml)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 The packaged Eclipse project, available in the ATL transformation zoo (with source files), contains the three metamodels in KM3 and ECORE format, the two ATL transformations, and a set of model samples as XMI files.

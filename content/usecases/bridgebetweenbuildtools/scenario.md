@@ -19,5 +19,5 @@ We provide here the links to the different scenarios which have been used to cre
 
 ### ATL Scenario
 
-  * [Make to Ant](../../../atltransformations/#Make2Ant)
-  * [Ant to Maven](../../../atltransformations/#Ant2Maven)
+  * [Make to Ant](../../../atltransformations/#make-to-ant)
+  * [Ant to Maven](../../../atltransformations/#ant-to-maven)

@@ -19,7 +19,7 @@ We provide here the links to the different scenarios which have been used to cre
 
 ### ATL Scenario
 
-  * [Microsoft Office Excel SpreadsheetML Injector](../../../atltransformations/#MSOfficeExcelInjector)
-  * [Microsoft Office Excel SpreadsheetML to Software Quality Control](../../../atltransformations/#MSOfficeExcel2SoftwareQualityControl)
-  * [Software Quality Control to Bugzilla](../../../atltransformations/#SoftwareQualityControl2Bugzilla)
-  * [Software Quality Control to Mantis](../../../atltransformations/#SoftwareQualityControl2MantisBT)
+  * [Microsoft Office Excel SpreadsheetML Injector](../../../atltransformations/#microsoft-office-excel-spreadsheetml-injector)
+  * [Microsoft Office Excel SpreadsheetML to Software Quality Control](../../../atltransformations/#microsoft-office-excel-spreadsheetml-to-software-quality-control)
+  * [Software Quality Control to Bugzilla](../../../atltransformations/#software-quality-control-to-bugzilla)
+  * [Software Quality Control to Mantis](../../../atltransformations/#software-quality-control-to-mantis)

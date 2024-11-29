@@ -73,7 +73,7 @@ None at the current time.
 
 ##  Download
 
-  * [Complete scenario](../../atltransformations/#CPL2SPL): Scenario CPL to SPL available in the ATL transformation zoo (with source files).
+  * [Complete scenario](../../atltransformations/#cpl-to-spl): Scenario CPL to SPL available in the ATL transformation zoo (with source files).
   * [CPL metamodel](https://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#CPL): Full CPL metamodel specified in KM3.
   * [SPL metamodel](http://www.eclipse.org/gmt/am3/zoos/atlanticZoo/#SPL): Full SPL metamodel specified in KM3.
 

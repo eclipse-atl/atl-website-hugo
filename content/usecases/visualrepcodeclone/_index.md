@@ -83,7 +83,7 @@ None at the current time.
 
 ##  Download
 
-  * [Complete scenario](../../atltransformations/#CodeCloneTools2SVG): Scenario Code Clone to SVG available in the ATL transformation zoo (with source files).
+  * [Complete scenario](../../atltransformations/#code-clone-tools-to-svg): Scenario Code Clone to SVG available in the ATL transformation zoo (with source files).
 
 ## Acknowledgement
 

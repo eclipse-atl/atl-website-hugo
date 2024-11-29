@@ -57,7 +57,7 @@ The figures below present the sample results generated for a KM3 metamodel and f
 ## Related Use Cases
 
 {{< grid/div class="col-md-6" >}}
-### [Measuring UML models](measuring_uml_models/)
+### [Measuring UML models](../measuring_uml_models/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 This use case shows how to use and integrate a model transformation service in a UML Modeler to compute and generate quality measures on UML models. The used UML Modeler is [Papyrus](https://eclipse.dev/papyrus/) ([CEA LIST](https://list.cea.fr/)).
@@ -73,7 +73,7 @@ This use case shows how to use and integrate a model transformation service in a
 
 ##  Download
 
-  * [Complete scenario](../../atltransformations/#ModelMeasurement): Scenario **Models Measurement** available in the ATL transformation zoo (with source files).
+  * [Complete scenario](../../atltransformations/#models-measurement): Scenario **Models Measurement** available in the ATL transformation zoo (with source files).
 
 ## Acknowledgement
 

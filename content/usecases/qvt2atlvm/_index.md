@@ -43,7 +43,7 @@ None at the current time.
 ## Download
 
 {{< grid/div class="col-md-6" >}}
-### [Complete scenario](../../atltransformations/#QVT2ATLVM)
+### [Complete scenario](../../atltransformations/#qvt-to-atl-virtual-machine-compiler)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
 Scenario QVT to ATL VM available in the ATL transformation zoo (with source files).

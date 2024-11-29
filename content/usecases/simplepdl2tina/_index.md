@@ -99,7 +99,7 @@ None at the current time.
 
 ##  Download
 
-  * [Complete scenario](../../atltransformations/#SimplePDL2Tina): Scenario SimplePDL to Tina available in the ATL transformation zoo (with source files).
+  * [Complete scenario](../../atltransformations/#simplepdl2tina-models-verification-through-petri-nets): Scenario SimplePDL to Tina available in the ATL transformation zoo (with source files).
 
 ## Acknowledgement
 
