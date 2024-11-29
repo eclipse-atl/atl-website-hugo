@@ -18,11 +18,8 @@ hide_sidebar: true
 ## Community Support
 
   * [Documentation](/atl/documentation) - read about the details
-  * [ATL Forum](https://www.eclipse.org/forums/eclipse.atl) - discuss any issues you may have with ATL.
-  * [ATL issue tracker](https://github.com/eclipse-atl/atl/issues) - file bugs and feature requests
-  * [Recent bugs](https://github.com/eclipse-atl/atl/issues?q=is%3Aissue+is%3Aclosed) - bugs recently closed		
+  * [GitHub Discussions](https://github.com/eclipse-atl/atl/discussions) - discuss any issues you may have with ATL.
+  * [GitHub issue tracker](https://github.com/eclipse-atl/atl/issues) - file bugs and feature requests
+  * [GitHub Recent bugs](https://github.com/eclipse-atl/atl/issues?q=is%3Aissue+is%3Aclosed) - bugs recently closed
+  * [ATL Forum](https://www.eclipse.org/forums/eclipse.atl) - old discussion forum - closes on December 31st, 2024.
   * [Old ATL Bugzilla](https://bugs.eclipse.org/bugs/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=MMT.ATL&order=Reuse+same+sort+as+last+time&component=Contribution&component=Doc&component=emfvm&component=Engine&component=UI&component=Website) - review and create Bugzilla entries
-
-## Professional Support
-
-The ATL team can be contacted through the official [Eclipse forums](https://www.eclipse.org/forums/eclipse.atl). 
