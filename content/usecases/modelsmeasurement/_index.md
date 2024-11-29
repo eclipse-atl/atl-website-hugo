@@ -16,9 +16,9 @@ hide_sidebar: true
 > **By Éric Vépa ([SODIUS](https://www.sodius.com/))** \
 > July 2007
 
-This use case shows how to compute and generate measures on terminal models using ATL 2.0RC2. The measures can be processed on KM3 metamodels or UML models. And the measurement data can be represented with HTML, SVG or XHTML. This work has been done in collaboration between SODIUS and the ATLAS Group.
+This use case shows how to compute and generate measures on terminal models using ATL 2.0RC2. The measures can be processed on KM3 metamodels or UML models. And the measurement data can be represented with HTML, SVG or XHTML. This work has been done in collaboration between [SODIUS](https://www.sodius.com) and the ATLAS Group.
 
-As a complementary application to this contribution, an online service is provided at SODIUS's web site under the name "MC-Meter". The application offers you to freely measure your models and get an interactive report on them, using the Open Source contribution. The input models can be KM3 meta-models or UML models (in version 2.1), and the interactive report is sent back by email, using XHTML format with CSS. Sample of inputs and interactive reports are available on the service page.
+As a complementary application to this contribution, an online service is provided at [SODIUS](https://www.sodius.com)'s web site under the name "MC-Meter". The application offers you to freely measure your models and get an interactive report on them, using the Open Source contribution. The input models can be KM3 meta-models or UML models (in version 2.1), and the interactive report is sent back by email, using XHTML format with CSS. Sample of inputs and interactive reports are available on the service page.
 
 The online measurement service is available at: http://www.mdworkbench.com/measuring.php
 

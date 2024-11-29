@@ -133,7 +133,7 @@ In this use case, we translate [FIACRE](https://www-sop.inria.fr/oasis/fiacre/) 
 ### [Models Measurement](modelsmeasurement/)
 {{</ grid/div >}}
 {{< grid/div class="col-md-12" >}}
-This use case shows how to compute and generate measures on KM3 metamodels or UML2 models, and how to display them in different way (HTML, and SVG). This work has been done in collaboration between SODIUS and the ATLAS Group. As a complementary application to this contribution, an online service is provided at SODIUS's web site under the name "MC-Meter".
+This use case shows how to compute and generate measures on KM3 metamodels or UML2 models, and how to display them in different way (HTML, and SVG). This work has been done in collaboration between [SODIUS](https://www.sodius.com) and the ATLAS Group. As a complementary application to this contribution, an online service is provided at [SODIUS](https://www.sodius.com)'s web site under the name "MC-Meter".
 {{</ grid/div >}}
 {{< grid/div class="col-md-6" >}}
 ![Reaching Completion](../images/completion.png)
