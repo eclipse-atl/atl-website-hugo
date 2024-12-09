@@ -18,5 +18,6 @@ layout: "single"
 ATL is actively looking for project contributors. There are many official and unofficial ways to get involved. Please see [this wiki page](https://github.com/eclipse-atl/atl/wiki) for some ideas.
 
   * [Source Code Access](https://github.com/eclipse-atl/atl): get the code from GIT!
+  * [Jenkins](https://ci.eclipse.org/atl/): Continuous integration system.
   * [Developer Mailing List](https://dev.eclipse.org/mailman/listinfo/m2m-atl-dev): Subscribe to the developer list.
   * [Project Plan](https://www.eclipse.org/projects/project-plan.php?projectid=modeling.mmt.atl): what's coming up?
